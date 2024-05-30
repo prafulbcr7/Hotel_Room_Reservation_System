@@ -35,7 +35,7 @@ public class MainMenuManager implements MenuManager {
                     case 3 -> mainMenuService.createNewAccount();
                     case 4 -> goToAdminMenu();
                     case 5 -> {
-                        consolePrinter.print("Exiting the app.");
+                        consolePrinter.print("Thank you fo using the Best Hotel Room Reservation Application in the CLI World !. Exiting the Application..");
                         keepRunning = false;
                         scanner.close();
                     }

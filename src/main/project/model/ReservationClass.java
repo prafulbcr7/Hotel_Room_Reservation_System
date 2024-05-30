@@ -26,7 +26,7 @@ public class ReservationClass {
 
     @Override
     public String toString() {
-        return "Customer: " + this.customer.toString()
+        return "Room reservation for "+ "Customer: " + this.customer.toString()
                 + "Room: " + this.iroom.toString()
                 + "CheckIn Date: " + this.checkInDate
                 + "CheckOut Date: " + this.checkOutDate;

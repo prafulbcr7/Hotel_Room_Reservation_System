@@ -3,6 +3,8 @@
 This application System is an Java console based application.
 The topics covered while working on this project include developing classes using Object-Oriented Programming (OOP), organizing and processing data with collections, utilizing common Java types, managing third-party libraries & mocking dependencies. This application enables users to locate and book a room at the hotel by considering the availability of rooms.
 
+<img src="src/main/project/images/mainUI.png" width="800" height="450" />
+
 ## Cloning
 
 Using HTTPS:

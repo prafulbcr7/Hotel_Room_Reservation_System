@@ -49,8 +49,7 @@ public class ReservationServices {
         ReservationClass newReservation = newestReservation.create(customer, room, checkInDate,
                 checkOutDate);
         if (reservations.contains(newReservation)) {
-            throw new IllegalArgumentException("This room is already reserved for these " +
-                    "days");
+            throw new IllegalArgumentException("This room is already reserved for these days !");
         }
         reservations.add(newReservation);
         return newReservation;

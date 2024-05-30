@@ -24,7 +24,7 @@ public class Customer {
     public String getEmail() {return email;}
 
     @Override
-    public String toString() {return "First Name: " + firstName + " Last Name: " + lastName + " Email: " + email;}
+    public String toString() {return "Customers " + "First Name: " + firstName + " Last Name: " + lastName + " Email: " + email;}
 
 
     // Email Validation Method

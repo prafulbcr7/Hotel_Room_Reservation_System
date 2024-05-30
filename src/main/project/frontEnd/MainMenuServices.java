@@ -132,7 +132,7 @@ public class MainMenuServices extends MenuServices {
             keepAddingNewAccount = false;
 
             // Add new account
-            hotelResource.createACustomer(email, firstName, lastName);
+            hotelResource.createACustomer(firstName, lastName, email);
             consolePrinter.print("Your account successfully created. Hurray !! :-) ");
         }
     }
@@ -269,9 +269,6 @@ public class MainMenuServices extends MenuServices {
         return date;
     }
 
-    /**
-     * Implementation inspired by example on www.baeldung.com
-     */
     private boolean isValidDate(String input) {
         simpleDateFormat.setLenient(false);
         try {
